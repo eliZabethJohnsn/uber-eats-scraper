@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://www.ubereats.com/store/mcdonalds-700-west-4th-street/D9vYPnglREqMPS4BFm77Fg",
+    "scrapeMenu": true
+  },
+  {
+    "url": "https://www.ubereats.com/store/sample-restaurant-2/EXAMPLE",
+    "scrapeMenu": false
+  }
+]
