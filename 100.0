@@ -1,0 +1,36 @@
+return float(price_raw)
+        if isinstance(price_raw, str):
+            return float(price_raw)
+    except Exception:
+        return None
+
+    return None
+
+def _normalize_menu_item(node: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+    title = node.get("title") or node.get("name")
+    if not isinstance(title, str):
+        return None
+
+    price = _extract_price(node)
+
+    price_string = (
+        node.get("priceString")
+        or node.get("displayPrice")
+        or node.get("formattedPrice")
+    )
+    if not isinstance(price_string, str) and price is not None:
+        price_string = f"{price:.2f}"
+
+    is_sold_out = bool(
+        node.get("isSoldOut")
+        or node.get("isUnavailable")
+        or node.get("soldOut")
+        or node.get("unavailable")
+    )
+
+    return {
+        "title": title,
+        "price": price,
+        "priceString": price_string,
+        "isSoldOut": is_sold_out,
+    }
