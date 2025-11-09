@@ -1,0 +1,49 @@
+[
+  {
+    "logoUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/41e448619de9527990482249b90f154c/d9be3fc772fc6c0fd6b3471e291aa823.jpeg",
+    "name": "McDonald's® (700 WEST 4TH STREET)",
+    "categories": [
+      "$",
+      "American",
+      "Burgers",
+      "Fast Food"
+    ],
+    "rating": 4,
+    "reviewCount": "2000+",
+    "currencyCode": "USD",
+    "location": {
+      "address": "700 West 4th Street, WILMINGTON, DE 19801",
+      "city": "WILMINGTON",
+      "postalCode": "19801",
+      "country": "US",
+      "latitude": 39.7428822,
+      "longitude": -75.5582046,
+      "locationType": "DEFAULT"
+    },
+    "phoneNumber": "+12345678900",
+    "uuid": "0fdbd83e-7825-444a-8c3d-2e01166efb16",
+    "hours": [
+      {
+        "dayRange": "Sunday",
+        "sectionHours": [
+          {
+            "startTime": 240,
+            "endTime": 659,
+            "sectionTitle": "Breakfast",
+            "startTimeFormatted": "4:00 AM",
+            "endTimeFormatted": "10:59 AM"
+          }
+        ]
+      }
+    ],
+    "url": "https://www.ubereats.com/store/mcdonalds-700-west-4th-street/D9vYPnglREqMPS4BFm77Fg",
+    "menuItems": [
+      {
+        "title": "10 pc. Chicken McNuggets®",
+        "price": 7.59,
+        "priceString": "$7.59 \u2022 410 Cal.",
+        "isSoldOut": false
+      }
+    ]
+  }
+]
